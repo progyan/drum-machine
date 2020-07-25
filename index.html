@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Drum Machine</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:800|Roboto+Mono" rel="stylesheet">
+        <link rel="stylesheet" href="http://github.hubspot.com/odometer/themes/odometer-theme-default.css" />
+        <script src="http://github.hubspot.com/odometer/odometer.js"></script>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1 id="playing" title="Название текущего звука">Загрузка файлов...</h1>
+        <div id="control">
+            <img src="img/play.jpg" onclick="playButton()" id="play" class="nodisp" title="Продолжить играть">
+            <img src="img/start.jpg" onclick="playButton()" id="start" title="Проиграть музыку с начала">
+            <img src="img/pause.jpg" onclick="pauseButton()" id="pause" class="nodisp" title="Пауза">
+            <img src="img/stop.jpg" onclick="stopButton()" id="stop" class="nodisp" title="Остановить">
+        </div>
+        <div id="trackW"><div id="track" class="odometer" title="Номер строки в нотной тетради">1</div></div>
+        <div id="tickW"><div id="tick" title="Номер текущей ноты">0</div></div>
+        <div id="part" title="Текущая часть">Базовые навыки</div>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,72 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    font-size: 50px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+    font-style: italic;
+    position: absolute;
+    text-align: center;
+}
+
+#trackW, #track {
+    font-size: 100px;
+    user-select: none;
+    font-family: 'Roboto Mono', monospace;
+    width: 100%;
+    text-align: center;
+    font-weight: 800;
+    z-index: -10;
+}
+
+#tickW, #tick {
+    position: fixed;
+    right: 11px;
+    top: 31px;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    user-select: none;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 800;
+}
+
+img {
+    height: 70px;
+    opacity: 0.8;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+}
+
+.nodisp {
+    display: none;
+}
+
+body {
+    overflow: hidden;
+}
+
+* {
+    user-select: none;
+}
+
+#part {
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    font-family: 'Montserrat', monospace;
+    font-size: 8vw;
+    font-style: italic;
+    color: lightgrey;
+}
+
+img:hover {
+    opacity: 1;
+}
+
+#control {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+}
